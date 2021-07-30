@@ -1,9 +1,75 @@
 @import "../../partials/colors";
 @import "../../partials/mixins";
+
 .explore {
   padding: 60px;
 
   &__title {
     @include subheader;
+  }
+
+  &__destination-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__destination {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 250px;
+  }
+
+  &__destination-img {
+    height: 70px;
+    width: 70px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  &__destination-text-wrapper {
+    margin-left: 16px;
+  }
+  &__destination-title {
+    @include body-copy;
+    font-weight: 600;
+  }
+
+  &__cta {
+    background-image: url("../../assets/bath-house.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 100%;
+    height: 400px;
+    margin-top: 60px;
+    border-radius: 16px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__cta-wrapper {
+    width: 300px;
+  }
+
+  &__cta-text {
+    @include subheader;
+    font-weight: 400;
+    color: $light;
+  }
+
+  &__btn {
+    margin-top: 16px;
+    @include cta-alt;
+    &:hover {
+      @include cta-hover;
+    }
+  }
+
+  &__btn-text {
+    @include body-copy;
+    font-weight: 500;
   }
 }

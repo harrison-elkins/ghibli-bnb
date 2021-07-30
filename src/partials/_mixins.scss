@@ -42,3 +42,19 @@
   background-color: $pink-1;
   color: $light;
 }
+@mixin cta-alt {
+  background-color: rgba(255, 255, 255, 0.527);
+  color: $dark;
+  height: 34px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.8s, color 0.8s;
+}
+@mixin cta-alt-hover {
+  background-color: $pink-1;
+  color: $light;
+}

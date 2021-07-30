@@ -1,8 +1,79 @@
+@import "../../partials/colors";
+@import "../../partials/mixins";
+
 .hero {
   width: 100%;
-  &__image {
+  padding: 60px;
+  background-image: url("../../assets/chihiro-hero.jpeg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+
+  &__itin {
+    width: 90%;
+    height: 66px;
+    background-color: $light;
+    border-radius: 32px;
+    border: 1px solid #ddd;
+    margin: 0 auto 60px auto;
+    display: flex;
+    align-items: center;
+  }
+
+  &__itin-divider {
+    border-right: 1px solid #ddd;
+    height: 32px;
+  }
+
+  &__itin-container {
+    padding: 14px 32px;
+  }
+
+  &__itin-title {
+    @include labels;
+    padding-right: 24px;
+  }
+
+  &__itin-text {
+    font-size: 14px;
+    color: $dark-alt;
+    padding-right: 44px;
+  }
+
+  &__itin-search {
+    width: 16px;
+    height: 16px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 44px;
+    background-color: $pink-1;
+  }
+
+  &__title-wrapper {
     width: 100%;
-    height: 60vw;
-    object-fit: cover;
+    display: flex;
+  }
+  &__title-container {
+    width: 400px;
+  }
+
+  &__title {
+    @include header;
+    font-size: 55px;
+    line-height: 55px;
+    color: $light;
+    margin-bottom: 8px;
+  }
+
+  &__cta {
+    @include cta;
+    &:hover {
+      @include cta-hover;
+    }
+  }
+
+  &__cta-text {
+    @include body-copy;
+    font-weight: 500;
   }
 }

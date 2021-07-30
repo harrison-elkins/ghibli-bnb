@@ -1,3 +1,6 @@
+@import "../../partials/colors";
+@import "../../partials/mixins";
+
 .nav {
   padding: 16px 24px;
   &__container {
@@ -8,6 +11,7 @@
   &__logo {
     font-size: 20px;
     margin-right: 12px;
+    color: $dark;
   }
   &__search__container {
     height: 20px;
@@ -29,7 +33,7 @@
   &__link {
     font-size: 12px;
     text-decoration: none;
-    color: black;
+    color: $pink-1;
     font-weight: 600;
   }
   &__btn-container {

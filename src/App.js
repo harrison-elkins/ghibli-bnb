@@ -1,7 +1,8 @@
 import "./App.scss";
-import NavBar from "./components/NavBar/NavBar";
-import Hero from "./components/Hero/Hero";
-import { BrowserRouter } from "react-router-dom";
+import Home from "../src/Pages/Home/Home";
+import Listing from "../src/Pages/Listing/Listing";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import NavBar from "../src/components/NavBar/NavBar";
 
 function App() {
   return (
@@ -13,7 +14,6 @@ function App() {
           <Route path="/listing/:id" exact component={Listing} />
         </Switch>
       </BrowserRouter>
-      <Hero />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 function LocationCards() {
-  render(
+  return (
     <main className="cards">
       <div class="card__container">
         <image></image>
@@ -7,3 +7,4 @@ function LocationCards() {
     </main>
   );
 }
+export default LocationCards;

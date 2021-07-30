@@ -1,9 +1,3 @@
-@import "../../partials/colors";
-@import "../../partials/mixins";
-.explore {
-  padding: 60px;
-
-  &__title {
-    @include subheader;
-  }
+.listing-page {
+  display: none;
 }

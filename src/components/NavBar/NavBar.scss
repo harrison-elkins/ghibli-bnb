@@ -1,0 +1,52 @@
+.nav {
+  padding: 16px 24px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    font-size: 20px;
+    margin-right: 12px;
+  }
+  &__search__container {
+    height: 20px;
+    padding-left: 16px;
+  }
+  &__search {
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px;
+  }
+  &__logo-container {
+    display: flex;
+    align-items: center;
+  }
+  &__details-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__link {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+  &__btn-container {
+    margin-left: 16px;
+  }
+  &__btn {
+    font-size: 12px;
+    width: 100%;
+    font-weight: 600;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+  }
+}

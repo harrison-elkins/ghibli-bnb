@@ -1,0 +1,84 @@
+@import "../../partials/colors";
+@import "../../partials/mixins";
+
+.listing {
+  padding: 60px;
+
+  &__title {
+    @include header;
+    color: $dark;
+  }
+
+  &__reviews-container {
+    padding: 20px 0;
+    display: flex;
+  }
+
+  &__rating {
+    @include body-copy;
+    color: $dark;
+    margin-right: 20px;
+    font-weight: 600;
+  }
+
+  &__host {
+    color: $dark-alt;
+  }
+
+  &__rating-icon {
+    font-size: 16px;
+    color: $orange-1;
+    margin-right: 4px;
+  }
+
+  &__image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  &__info {
+    padding: 60px 0;
+  }
+
+  &__info-title {
+    @include subheader;
+    color: $dark;
+    font-weight: 400;
+    margin-bottom: 16px;
+  }
+
+  &__info-subtitle {
+    @include body-copy;
+    color: $dark;
+  }
+
+  &__features {
+    width: 50%;
+    height: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px 1px rgba(151, 150, 150, 0.15);
+    background: linear-gradient(120deg, $orange-1 0%, $orange-2 100%);
+  }
+
+  &__features-title {
+    @include subheader;
+    font-size: 24px;
+    // font-weight: 400;
+    width: 100%;
+    color: $dark;
+  }
+  &__features-subtitle {
+    @include body-copy;
+    color: $dark-alt;
+    font-weight: 600;
+    margin: 12px 0;
+  }
+  &__features-text {
+    @include body-copy;
+    color: $dark;
+    margin-bottom: 18px;
+  }
+}

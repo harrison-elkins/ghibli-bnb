@@ -5,7 +5,9 @@ function NavBar() {
     <header className="nav">
       <div className="nav__container">
         <div className="nav__logo-container">
-          <h2 className="nav__logo">ghiblibnb</h2>
+          <h2 className="nav__logo">
+            ghibli<span className="nav__logo-span">bnb</span>
+          </h2>
           <div className="nav__search-container">
             <input className="nav__search" />
           </div>

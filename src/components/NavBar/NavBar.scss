@@ -8,10 +8,17 @@
     justify-content: space-between;
     align-items: center;
   }
+  &__logo-container {
+    display: flex;
+    align-items: center;
+  }
   &__logo {
     font-size: 20px;
     margin-right: 12px;
     color: $dark;
+  }
+  &__logo-span {
+    font-weight: 300;
   }
   &__search__container {
     height: 20px;
@@ -22,10 +29,6 @@
     border: 1px solid gray;
     padding: 5px;
   }
-  &__logo-container {
-    display: flex;
-    align-items: center;
-  }
   &__details-wrapper {
     display: flex;
     align-items: center;
@@ -34,7 +37,7 @@
     font-size: 12px;
     text-decoration: none;
     color: $pink-1;
-    font-weight: 600;
+    font-weight: 300;
   }
   &__btn-container {
     margin-left: 16px;

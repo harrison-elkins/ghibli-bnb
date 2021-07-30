@@ -24,6 +24,7 @@ const LocationCards = ({ locationData }) => {
             >
               <div className="card__container">
                 <image className="card__image" src={image} />
+                <h3 className="card__title">See the listing</h3>
               </div>
             </Link>
           </>

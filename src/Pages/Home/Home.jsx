@@ -57,7 +57,7 @@ class Home extends Component {
               <img className="explore__destination-img" src={irontown} />
               <div className="explore__destination-text-wrapper">
                 <p className="explore__destination-title">Iron Town</p>
-                <p className="explore__destination-dist">5.5-hour drive</p>
+                <p className="explore__destination-dist">600-hour journey</p>
               </div>
             </div>
             {/* gondoa */}
@@ -65,7 +65,9 @@ class Home extends Component {
               <img className="explore__destination-img" src={gondoa} />
               <div className="explore__destination-text-wrapper">
                 <p className="explore__destination-title">Gondoa</p>
-                <p className="explore__destination-dist">5.5-hour drive</p>
+                <p className="explore__destination-dist">
+                  Not far via mountain goat
+                </p>
               </div>
             </div>
             {/* bamboo forest */}
@@ -73,7 +75,9 @@ class Home extends Component {
               <img className="explore__destination-img" src={bamboo} />
               <div className="explore__destination-text-wrapper">
                 <p className="explore__destination-title">Bamboo Forest</p>
-                <p className="explore__destination-dist">5.5-hour drive</p>
+                <p className="explore__destination-dist">
+                  Quicker with a machete
+                </p>
               </div>
             </div>
             {/* laputa */}
@@ -81,7 +85,9 @@ class Home extends Component {
               <img className="explore__destination-img" src={laputa} />
               <div className="explore__destination-text-wrapper">
                 <p className="explore__destination-title">Laputa</p>
-                <p className="explore__destination-dist">5.5-hour drive</p>
+                <p className="explore__destination-dist">
+                  An impossible journey
+                </p>
               </div>
             </div>
             {/* koriko */}
@@ -89,7 +95,9 @@ class Home extends Component {
               <img className="explore__destination-img" src={koriko} />
               <div className="explore__destination-text-wrapper">
                 <p className="explore__destination-title">Koriko</p>
-                <p className="explore__destination-dist">5.5-hour drive</p>
+                <p className="explore__destination-dist">
+                  5.5-hour carriage ride
+                </p>
               </div>
             </div>
             {/* ingary */}
@@ -97,7 +105,9 @@ class Home extends Component {
               <img className="explore__destination-img" src={ingary} />
               <div className="explore__destination-text-wrapper">
                 <p className="explore__destination-title">Ingary</p>
-                <p className="explore__destination-dist">5.5-hour drive</p>
+                <p className="explore__destination-dist">
+                  6-day journey by foot
+                </p>
               </div>
             </div>
             {/* karikiya */}
@@ -105,7 +115,7 @@ class Home extends Component {
               <img className="explore__destination-img" src={karikiyo} />
               <div className="explore__destination-text-wrapper">
                 <p className="explore__destination-title">Karikiya</p>
-                <p className="explore__destination-dist">5.5-hour drive</p>
+                <p className="explore__destination-dist">600-hour journey</p>
               </div>
             </div>
             {/* matsugo */}
@@ -113,7 +123,9 @@ class Home extends Component {
               <img className="explore__destination-img" src={matsugo} />
               <div className="explore__destination-text-wrapper">
                 <p className="explore__destination-title">Matsugo</p>
-                <p className="explore__destination-dist">5.5-hour drive</p>
+                <p className="explore__destination-dist">
+                  16 days by sturdy canoe
+                </p>
               </div>
             </div>
             <div className="explore__cta">

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Hero from "../../components/Hero/Hero";
 import LocationCards from "../../components/LocationCards/LocationCards";
+import "./home.scss";
 import Listing from "../Listing/Listing";
 import { API_URL } from "../../util";
 import axios from "axios";
-import "./Home.scss";
 
 class Home extends Component {
   //   TODOstate goes here.
@@ -41,6 +41,9 @@ class Home extends Component {
     return (
       <>
         <Hero />
+        <section className="explore">
+          <h1 className="explore__title">Explore nearby</h1>
+        </section>
         {this.state.locationData && (
           <LocationCards locationData={this.state.locationData} />
         )}

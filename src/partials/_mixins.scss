@@ -1,0 +1,44 @@
+@import "./colors";
+
+// typography
+@mixin header {
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+@mixin subheader {
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+@mixin body-copy {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+@mixin labels {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+}
+
+// cta
+@mixin cta {
+  background-color: $bg-light;
+  color: $pink-1;
+  height: 34px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.8s, color 0.8s;
+}
+@mixin cta-hover {
+  background-color: $pink-1;
+  color: $light;
+}

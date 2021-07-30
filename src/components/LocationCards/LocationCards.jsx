@@ -6,15 +6,19 @@ const LocationCards = ({ locationData }) => {
   console.log(locationData);
   return (
     <main className="cards">
-      <Link
-        to={`/listing/${locationData[0].id}`}
-        className="cards__link"
-        key={locationData.id}
-      >
-        <div class="card__container">
-          <image src={card}></image>
-        </div>
-      </Link>
+      {locationData.map((location) => {
+        return (
+          <Link
+            to={`/listing/${location.id}`}
+            className="cards__link"
+            key={locationData.id}
+          >
+            <div class="card__container">
+              <image src={card}></image>
+            </div>
+          </Link>
+        );
+      })}
     </main>
   );
 };

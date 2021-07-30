@@ -11,6 +11,7 @@ function App() {
         <NavBar />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/listing" exact component={Listing} />
           <Route path="/listing/:id" exact component={Listing} />
         </Switch>
       </BrowserRouter>

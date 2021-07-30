@@ -2,8 +2,9 @@
 @import "../../partials/mixins";
 
 .nav {
-  padding: 16px 24px;
+  padding: 20px 60px;
   &__container {
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,12 +22,14 @@
     font-weight: 300;
   }
   &__search__container {
-    height: 20px;
     padding-left: 16px;
   }
   &__search {
     border-radius: 20px;
-    border: 1px solid gray;
+    width: 275px;
+    height: 45px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 12px 1px rgba(151, 150, 150, 0.15);
     padding: 5px;
   }
   &__details-wrapper {
@@ -44,9 +47,10 @@
   }
   &__btn {
     font-size: 12px;
+    color: $dark;
     width: 100%;
     font-weight: 600;
-    border: 1px solid gray;
+    border: 1px solid #ddd;
     border-radius: 20px;
     background-color: white;
     padding: 0.5rem 1rem;

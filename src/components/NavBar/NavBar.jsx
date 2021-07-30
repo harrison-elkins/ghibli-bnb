@@ -8,9 +8,9 @@ function NavBar() {
           <h2 className="nav__logo">
             ghibli<span className="nav__logo-span">bnb</span>
           </h2>
-          <div className="nav__search-container">
-            <input className="nav__search" />
-          </div>
+        </div>
+        <div className="nav__search-container">
+          <input className="nav__search" />
         </div>
         <div className="nav__details-wrapper">
           <div className="nav__link-container">

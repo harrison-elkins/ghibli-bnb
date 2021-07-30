@@ -26,7 +26,6 @@ function Hero() {
         </div>
         <div className="hero__itin-divider"></div>
         <div className="hero__itin-container">
-          {" "}
           <div className="hero__itin-search"></div>
         </div>
       </div>
